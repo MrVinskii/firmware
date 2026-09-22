@@ -64,14 +64,14 @@ static const uint8_t SCK = 18;
 #define USER_SETUP_LOADED 1
 #define ILI9341_DRIVER 1
 #define TFT_RGB_ORDER 0
-#define TFT_WIDTH 170
+#define TFT_WIDTH 240
 #define TFT_HEIGHT 320
 #define TFT_BACKLIGHT_ON 1
 #define TFT_BL 21
 #define TFT_RST 4
 #define TFT_DC 2
 #define TFT_MISO 12
-#define TFT_MOSI 3
+#define TFT_MOSI 13
 #define TFT_SCLK 14
 #define TFT_CS 15
 #define TOUCH_CS -1 // SDCARD_CS to make sure SDCard works
@@ -119,9 +119,9 @@ static const uint8_t SCK = 18;
 // IO EXPANDER
 #define USE_IO_EXPANDER
 #define IO_EXPANDER_AW9523
-#define IO_EXP_GPS 13
-#define IO_EXP_MIC 4
-#define IO_EXP_VIBRO 2
-#define IO_EXP_CC_RX 7
-#define IO_EXP_CC_TX 12
+#define IO_EXP_GPS -1
+#define IO_EXP_MIC -1
+#define IO_EXP_VIBRO -1
+#define IO_EXP_CC_RX -1
+#define IO_EXP_CC_TX -1
 #endif /* Pins_Arduino_h */
