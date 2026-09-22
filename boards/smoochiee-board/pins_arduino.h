@@ -53,9 +53,9 @@ static const uint8_t SCK = 18;
 #define NRF24_SCK_PIN SPI_SCK_PIN
 #define NRF24_MISO_PIN SPI_MISO_PIN
 
-#define FP 1
-#define FM 2
-#define FG 3
+//#define FP 1
+//#define FM 2
+//#define FG 3
 
 #define HAS_SCREEN 1
 #define ROTATION 1
@@ -70,8 +70,8 @@ static const uint8_t SCK = 18;
 #define TFT_BL 21
 #define TFT_RST 4
 #define TFT_DC 2
-#define TFT_MISO 8
-#define TFT_MOSI 12
+#define TFT_MISO 12
+#define TFT_MOSI 13
 #define TFT_SCLK 14
 #define TFT_CS 15
 #define TOUCH_CS -1 // SDCARD_CS to make sure SDCard works
