@@ -26,7 +26,7 @@ static const uint8_t SCK = 18;
 
 #define BTN_ALIAS "\"OK\""
 #define HAS_5_BUTTONS
-#define SEL_BTN 0
+#define SEL_BTN 42
 #define UP_BTN 41
 #define DW_BTN 40
 #define R_BTN 38
@@ -67,13 +67,13 @@ static const uint8_t SCK = 18;
 #define TFT_WIDTH 240
 #define TFT_HEIGHT 320
 #define TFT_BACKLIGHT_ON 1
-#define TFT_BL 21
-#define TFT_RST 4
-#define TFT_DC 2
-#define TFT_MISO 12
-#define TFT_MOSI 13
-#define TFT_SCLK 14
-#define TFT_CS 15
+#define TFT_BL 6
+#define TFT_RST 16
+#define TFT_DC 15
+#define TFT_MISO 8
+#define TFT_MOSI 17
+#define TFT_SCLK 18
+#define TFT_CS 7
 #define TOUCH_CS -1 // SDCARD_CS to make sure SDCard works
 #define SMOOTH_FONT 1
 #define SPI_FREQUENCY 20000000
@@ -86,9 +86,9 @@ static const uint8_t SCK = 18;
 #define SDCARD_MOSI 17
 
 #define GROVE_SDA 47
-#define GROVE_SCL 48
+#define GROVE_SCL 45
 #define SYS_I2C_SDA 47
-#define SYS_I2C_SCL 48
+#define SYS_I2C_SCL 45
 
 #define SPI_SCK_PIN 13
 #define SPI_MOSI_PIN 12
